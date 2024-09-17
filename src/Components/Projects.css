@@ -1,0 +1,64 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the project cards vertically */
+  justify-content: center; /* Center the project cards horizontally */
+  margin: 50px auto; /* Center container horizontally */
+  padding: 20px;
+  background-color: #f6f2eb;
+}
+
+.project-card {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;  /* Padding inside the card */
+  padding-right: 40px; /* Increase right padding */
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 100%; /* Full width of the container */
+}
+
+
+.project-info {
+  width: 50%;
+}
+
+.project-image {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column; /* Stack the project info and image vertically */
+    align-items: center;
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  .project-info,
+  .project-image {
+    width: 100%; /* Take up the full width on mobile */
+    text-align: center; /* Center text content */
+  }
+
+  .project-info {
+    margin-bottom: 20px; /* Add some spacing between info and image */
+  }
+
+  /* Hide images on mobile screens */
+  .project-image {
+    display: none;
+  }
+}

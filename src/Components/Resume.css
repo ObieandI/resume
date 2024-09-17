@@ -1,0 +1,78 @@
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f6f2eb;
+    border-radius: 8px;
+  }
+  
+  .resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resume-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .download-cv-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .download-cv-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .experience-section {
+    margin-top: 30px;
+  }
+  
+  .experience-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .experience-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin between cards */
+  }
+  
+  
+  .experience-info {
+    width: 40%;
+  }
+  
+  .experience-info h3, .experience-achievements h4 {
+    color: #8b715e;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .experience-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .experience-description, .experience-achievements{
+    width: 70%;
+  }
+  
+  .experience-description p, .experience-achievements p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
