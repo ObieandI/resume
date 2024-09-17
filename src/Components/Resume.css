@@ -1,84 +1,96 @@
 .resume-container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f6f2eb;
-    border-radius: 8px;
-  }
-  
-  .resume-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .resume-header h1 {
-    font-size: 36px;
-    color: #333;
-  }
-  
-  .download-cv-btn {
-    padding: 10px 20px;
-    background-color: #6ccfa9;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .download-cv-btn:hover {
-    background-color: #1db87c;
-  }
-  
-  .experience-section {
-    margin-top: 30px;
-  }
-  
-  .experience-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .experience-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add margin between cards */
-  }
-  
-  
-  .experience-info {
-    width: 50%;
-  }
-  
-  .experience-info h3{
-    color: #8b715e;
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f6f2eb;
+  border-radius: 8px;
+}
 
-  .experience-achievements h4 {
-    color: #1db87c;
-    font-size: 16px;
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  }
+.resume-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.download-cv-btn {
+  padding: 10px 20px;
+  background-color: #6ccfa9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.download-cv-btn:hover {
+  background-color: #1db87c;
+}
+
+.experience-section {
+  margin-top: 30px;
+}
+
+.experience-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.experience-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+.experience-info {
+  width: 50%;
+}
+
+.experience-info h3{
+  color: #8b715e;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.experience-achievements h4 {
+  color: #1db87c;
+  font-size: 16px;
+  padding-top: 20px;
+}
   
-  .experience-info p {
-    margin: 0;
-    font-size: 14px;
-    color: #333;
-  }
-  
-  .experience-description, .experience-achievements{
-    width: 90%;
-  }
-  
-  .experience-description p, .experience-achievements p {
-    font-size: 14px;
-    color: #666;
+.experience-info p {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.experience-description, .experience-achievements{
+    width: 100%;
     line-height: 1.5;
-  }
-  
+}
+
+.experience-description {
+  border-top: 0.1rem solid lightgray;
+  border-bottom: 0.1rem solid lightgray;
+}
+
+.experience-description p, .experience-achievements p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.experience-description p {
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+

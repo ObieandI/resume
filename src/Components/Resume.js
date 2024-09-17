@@ -19,8 +19,7 @@ function Resume() {
           <div className="experience-info">
             <h3>Graduate Developer</h3>
             <h3>NTI Limited</h3>
-            <p>March 2024 - June 2024</p>
-            <p>Brisbane, Australia</p>
+            <p>March 2024 - June 2024 | Brisbane, Australia</p>
           </div>
           <div className="experience-description">
             <p>
@@ -40,8 +39,7 @@ function Resume() {
           <div className="experience-info">
             <h3>Website Developer</h3>
             <h3>Macquarie University</h3>
-            <p>October 2022 - December 2022</p>
-            <p>Sydney, Australia</p>
+            <p>October 2022 - December 2022 | Sydney, Australia</p>
           </div>
           <div className="experience-description">
             <p>Prepared a project proposal for an interactive game website, including story, design, flow chart, artworks showcasing the project's UI, and a breakdown of the website's interactivity and technical implementations.</p>
@@ -58,8 +56,7 @@ function Resume() {
           <div className="experience-info">
             <h3>Website Developer</h3>
             <h3>Be Centre</h3>
-            <p>April 2022 - July 2022</p>
-            <p>Sydney, Australia</p>
+            <p>April 2022 - July 2022 | Sydney, Australia</p>
           </div>
           <div className="experience-description">
             <p>Created 23 wireframes ensuring easy access to content through appropriate navigation bar development.</p>
@@ -80,8 +77,7 @@ function Resume() {
           <div className="experience-info">
             <h3>Assistant Manager & Store Manager</h3>
             <h3>Elka Collective - David Jones QP</h3>
-            <p>September 2023 - March 2024</p>
-            <p>Brisbane, Australia</p>
+            <p>September 2023 - March 2024 | Brisbane, Australia</p>
           </div>
           <div className="experience-description">
             <p>Managed stock levels, visual merchandising, and customer service. Promoted to Store Manager within the first year. Analyzed sales data and trained staff to meet sales targets. Received offer for promotion to a flagship store.</p>
@@ -98,8 +94,7 @@ function Resume() {
           <div className="experience-info">
             <h3>Store Manager</h3>
             <h3>Review Australia - Myer Chatswood</h3>
-            <p>April 2022 - September 2023</p>
-            <p>SYD & BNE, Australia</p>
+            <p>April 2022 - September 2023 | SYD & BNE, Australia</p>
           </div>
           <div className="experience-description">
             <p>Managed daily operations, trained staff, and achieved sales targets. Analyzed customer trends and worked closely with the regional manager on store strategy.</p>
@@ -117,8 +112,7 @@ function Resume() {
           <div className="experience-info">
             <h3>Checkout Supervisor</h3>
             <h3>IGA Supamart</h3>
-            <p>February 2020 - April 2022</p>
-            <p>Sydney, Australia</p>
+            <p>February 2020 - April 2022 | Sydney, Australia</p>
           </div>
           <div className="experience-description">
             <p>Supervised staff, resolved customer issues, and maintained productivity. Received promotion offers for managerial roles at multiple locations.</p>
