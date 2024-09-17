@@ -19,7 +19,7 @@
   
   .download-cv-btn {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #6ccfa9;
     color: white;
     border: none;
     border-radius: 5px;
@@ -28,7 +28,7 @@
   }
   
   .download-cv-btn:hover {
-    background-color: #0056b3;
+    background-color: #1db87c;
   }
   
   .experience-section {
@@ -51,13 +51,19 @@
   
   
   .experience-info {
-    width: 40%;
+    width: 50%;
   }
   
-  .experience-info h3, .experience-achievements h4 {
+  .experience-info h3{
     color: #8b715e;
     font-size: 18px;
     margin-bottom: 5px;
+  }
+
+  .experience-achievements h4 {
+    color: #1db87c;
+    font-size: 16px;
+
   }
   
   .experience-info p {
@@ -67,7 +73,7 @@
   }
   
   .experience-description, .experience-achievements{
-    width: 70%;
+    width: 90%;
   }
   
   .experience-description p, .experience-achievements p {

@@ -1,5 +1,6 @@
 import React from "react";
-import "./AboutMe.css"; // Assuming you'll add styles here
+import { Link } from "react-router-dom"; // Ensure you import Link for routing
+import "./AboutMe.css"; // Your CSS styling file
 import { Container, Row, Col } from "react-bootstrap"; // Import Bootstrap components
 
 function AboutMe() {
@@ -29,8 +30,9 @@ function AboutMe() {
         <Col md={6} className="about-text-container">
           <div className="about-text">
             <h1>Hello!</h1>
-            <button className="resume-btn">Resume</button>
-            <button className="projects-btn">Projects</button>
+            {/* Make the buttons go to the proper routes */}
+            <Link to="/resume" className="btn resume-btn">Resume</Link>
+            <Link to="/projects" className="btn projects-btn">Projects</Link>
             <p>
               Hello! I’m a passionate Web Developer with a background in game
               design and development. With experience in both web and game
@@ -46,21 +48,39 @@ function AboutMe() {
 
       {/* Education Section in a separate Row */}
       <Row className="education-section">
-        <Col md={12}>
-          <h2>Education</h2>
+        <h3 className="mb-3">Education</h3>
 
+        {/* Macquarie University */}
+        <Col md={6}>
           <div className="education-card">
-            <h3>2023</h3>
-            <p>Bachelor of Game Design & Development</p>
-            <p>Macquarie University, Sydney, Australia</p>
+            <div className="education-content">
+              <img
+                src="/macquarie.webp"
+                alt="Macquarie University Logo"
+                className="university-logo"
+              />
+              <div className="education-text">
+                <h3>2023</h3>
+                <p>Bachelor of Game Design & Development</p>
+                <p>Macquarie University, Sydney, Australia</p>
+              </div>
+            </div>
           </div>
+        </Col>
 
+        {/* Queensland University of Technology (QUT) */}
+        <Col md={6}>
           <div className="education-card">
-            <h3>2025 (Expected)</h3>
-            <p>Postgraduate Certificate in Web Development</p>
-            <p>
-              Queensland University of Technology (QUT), Brisbane, Australia
-            </p>
+            <div className="education-content">
+              <img src="/qut.png" alt="QUT Logo" className="university-logo" />
+              <div className="education-text">
+                <h3>2025 (Expected)</h3>
+                <p>Postgraduate Certificate in Web Development</p>
+                <p>
+                  Queensland University of Technology (QUT), Brisbane, Australia
+                </p>
+              </div>
+            </div>
           </div>
         </Col>
       </Row>

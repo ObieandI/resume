@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-left">
           <p>© 2024 by Ambra Vladone</p>
           <p>
-            Created using React & Bootstrap
+            Created using React & Bootstrap.
           </p>
         </div>
 

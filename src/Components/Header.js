@@ -4,7 +4,7 @@ import "./Header.css"; // Assuming you'll add styles here
 function Header() {
   return (
     <header className="sticky-header">
-      <div className="container d-flex justify-content-between align-items-center">
+      <div className="container d-flex justify-content-between space-between">
         <div className="logo d-flex align-items-center">
           <div className="logo-icon" />
           <h1 className="logo-text">Ambra Vladone</h1>

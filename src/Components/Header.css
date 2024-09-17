@@ -8,14 +8,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Container to keep things aligned */
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 
 /* Logo styles */
 .logo-text {
@@ -27,7 +19,7 @@
 
 .job-title {
   font-size: 16px; /* Increase font size */
-  color: #8b715e; /* Dark brown */
+  color: #1db87c; /* Dark brown */
   margin-left: 5px;
 }
 
@@ -40,7 +32,7 @@
 }
 
 .nav a:hover {
-  color: #333; /* Lighter brown on hover */
+  color: #1db87c; /* Lighter brown on hover */
 }
 
 .nav a:active {

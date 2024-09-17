@@ -35,7 +35,7 @@ function Projects() {
           <h2>Research Website</h2>
           <h4>Major Project</h4>
           <p>
-            Summary: This major project involved creating an informative website
+            This major project involved creating an informative website
             focused on a specific research topic, using HTML, CSS, and
             JavaScript. The goal was to design a visually appealing and
             user-friendly site that presented complex information clearly. The
