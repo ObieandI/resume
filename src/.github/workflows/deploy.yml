@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - master  # Replace "main" with "master" if you're using the master branch
+      - gh-pages  # Replace "main" with "master" if you're using the master branch
   workflow_dispatch:
 
 jobs:

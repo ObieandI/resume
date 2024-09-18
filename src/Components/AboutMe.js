@@ -55,7 +55,7 @@ function AboutMe() {
           <div className="education-card">
             <div className="education-content">
               <img
-                src="/macquarie.webp"
+                src="/macquarie.jpg"
                 alt="Macquarie University Logo"
                 className="university-logo"
               />
