@@ -7,10 +7,12 @@ import Resume from './Components/Resume.js';
 import Projects from './Components/Projects.js';
 import Contact from './Components/Contact.js';
 
+// Conditionally set the basename based on the environment
+const basename = process.env.NODE_ENV === 'production' ? '/website' : '/';
+
 function App() {
   return (
-    // Add basename for GitHub Pages
-    <Router basename="/website">
+    <Router basename={basename}>
       <Header />
       <Routes>
         <Route path="/about" element={<AboutMe />} />
