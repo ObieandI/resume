@@ -8,7 +8,7 @@ import Projects from './Components/Projects.js';
 import Contact from './Components/Contact.js';
 
 // Conditionally set the basename based on the environment
-const basename = process.env.NODE_ENV === 'production' ? '/website' : '/';
+const basename = process.env.NODE_ENV === 'production' ? '/resume' : '/';
 
 function App() {
   return (
