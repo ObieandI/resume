@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link for routing
 import "./Header.css"; // Assuming you'll add styles here
 
 function Header() {
@@ -11,10 +12,11 @@ function Header() {
           <span className="job-title"> / WEB DEVELOPER </span>
         </div>
         <nav className="nav">
-          <a href="/about">ABOUT ME</a>
-          <a href="/resume">RESUME</a>
-          <a href="/projects">PROJECTS</a>
-          <a href="/contact">CONTACT</a>
+          {/* Use Link from react-router-dom for navigation */}
+          <Link to="/about">ABOUT ME</Link>
+          <Link to="/resume">RESUME</Link>
+          <Link to="/projects">PROJECTS</Link>
+          <Link to="/contact">CONTACT</Link>
         </nav>
       </div>
     </header>
