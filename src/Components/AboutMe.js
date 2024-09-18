@@ -11,7 +11,7 @@ function AboutMe() {
         <Col md={6} className="profile-card-container">
           <div className="profile-card">
             <img
-              src="/profilePicture.jpg"
+              src={`${process.env.PUBLIC_URL}/profilePicture.jpg`}
               alt="Profile"
               className="profile-image"
             />
@@ -55,7 +55,7 @@ function AboutMe() {
           <div className="education-card">
             <div className="education-content">
               <img
-                src="/macquarie.jpg"
+                src={`${process.env.PUBLIC_URL}/macquarie.jpg`}
                 alt="Macquarie University Logo"
                 className="university-logo"
               />
@@ -72,7 +72,11 @@ function AboutMe() {
         <Col md={6}>
           <div className="education-card">
             <div className="education-content">
-              <img src="/qut.png" alt="QUT Logo" className="university-logo" />
+              <img
+                src={`${process.env.PUBLIC_URL}/qut.png`}
+                alt="QUT Logo"
+                className="university-logo"
+              />
               <div className="education-text">
                 <h3>2025 (Expected)</h3>
                 <p>Postgraduate Certificate in Web Development</p>

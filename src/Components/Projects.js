@@ -26,7 +26,10 @@ function Projects() {
           </p>
         </div>
         <div className="project-image">
-          <img src="/projectOne.png" alt="Project Visual" />
+          <img
+            src={`${process.env.PUBLIC_URL}/projectOne.png`}
+            alt="Project Visual"
+          />
         </div>
       </div>
 
@@ -49,7 +52,10 @@ function Projects() {
           </p>
         </div>
         <div className="project-image">
-          <img src="/projectTwo.png" alt="Project Visual" />
+          <img
+            src={`${process.env.PUBLIC_URL}/projectTwo.png`}
+            alt="Project Visual"
+          />
         </div>
       </div>
 
@@ -72,7 +78,10 @@ function Projects() {
           </p>
         </div>
         <div className="project-image">
-          <img src="/projectThree.png" alt="Project Visual" />
+          <img
+            src={`${process.env.PUBLIC_URL}/projectThree.png`}
+            alt="Project Visual"
+          />
         </div>
       </div>
 
@@ -96,7 +105,10 @@ function Projects() {
           </p>
         </div>
         <div className="project-image">
-          <img src="/projectFour.png" alt="Project Visual" />
+          <img
+            src={`${process.env.PUBLIC_URL}/projectFour.png`}
+            alt="Project Visual"
+          />
         </div>
       </div>
     </div>
