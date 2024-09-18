@@ -10,7 +10,7 @@ import Contact from './Components/Contact.js';
 function App() {
   return (
     // Add basename for GitHub Pages
-    <Router basename="/resume/">
+    <Router basename="/website">
       <Header />
       <Routes>
         <Route path="/about" element={<AboutMe />} />
