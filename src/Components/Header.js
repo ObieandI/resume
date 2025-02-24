@@ -14,7 +14,6 @@ function Header() {
         <nav className="nav">
           {/* Use Link from react-router-dom for navigation */}
           <Link to="/about">ABOUT ME</Link>
-          <Link to="/resume">RESUME</Link>
           <Link to="/projects">PROJECTS</Link>
           <Link to="/contact">CONTACT</Link>
         </nav>

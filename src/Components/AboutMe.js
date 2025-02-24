@@ -31,7 +31,6 @@ function AboutMe() {
           <div className="about-text">
             <h1>Hello!</h1>
             {/* Make the buttons go to the proper routes */}
-            <Link to="/resume" className="btn resume-btn">Resume</Link>
             <Link to="/projects" className="btn projects-btn">Projects</Link>
             <p>
               Hello! I’m a passionate Web Developer with a background in game
