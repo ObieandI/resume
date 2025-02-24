@@ -1,7 +1,23 @@
 import React from 'react';
 import './Contact.css';  // Import the CSS file for styling
+import emailjs from 'emailjs-com'; // Import EmailJS
+
 
 function Contact() {
+
+  const sendEmail = (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    emailjs.sendForm('service_e2lc1aj', 'template_uy4twxj', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+        console.log(result.text);
+        alert('Your message has been sent! A confirmation email will be sent to you shortly.');
+      }, (error) => {
+        console.log(error.text);
+        alert('Failed to send the message. Please try again.');
+      });
+  };
+
   return (
     <div className="contact-container">
       <h2 className='py-3'>Get In Touch</h2>
