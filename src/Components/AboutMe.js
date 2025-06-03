@@ -16,7 +16,7 @@ function AboutMe() {
               className="profile-image"
             />
             <h2>Ambra Daniela Vladone</h2>
-            <p className="profile-title">Web Developer</p>
+            <p className="profile-title">Software Developer</p>
             <hr />
             <div className="social-links">
               <a href="https://www.linkedin.com/in/ambra-vladone-bb9b91133/">
@@ -31,15 +31,16 @@ function AboutMe() {
           <div className="about-text">
             <h1>Hello!</h1>
             {/* Make the buttons go to the proper routes */}
-            <Link to="/projects" className="btn projects-btn">Projects</Link>
+            <Link to="/projects" className="btn projects-btn">
+              Projects
+            </Link>
             <p>
-              Hello! I’m a passionate Web Developer with a background in game
-              design and development. With experience in both web and game
-              development, I love creating visually engaging and technically
-              sound solutions that enhance user experiences. Whether it's
-              building responsive websites or developing interactive games, I
-              bring creativity, strategic thinking, and attention to detail to
-              everything I do.
+              Hello! I’m a passionate Software Developer with a background in
+              web application and game development. I love creating visually
+              engaging and technically sound solutions that enhance user
+              experiences. Whether it's building responsive websites or
+              developing interactive games, I bring creativity, strategic
+              thinking, and attention to detail to every project I work on.
             </p>
           </div>
         </Col>
@@ -77,7 +78,7 @@ function AboutMe() {
                 className="university-logo"
               />
               <div className="education-text">
-                <h3>2025 (Expected)</h3>
+                <h3>2025</h3>
                 <p>Postgraduate Certificate in Web Development</p>
                 <p>
                   Queensland University of Technology (QUT), Brisbane, Australia
