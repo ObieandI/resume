@@ -8,7 +8,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault(); // Prevent default form submission
 
-    emailjs.sendForm('service_e2lc1aj', 'template_uy4twxj', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_PUBLIC_KEY')
       .then((result) => {
         console.log(result.text);
         alert('Your message has been sent! A confirmation email will be sent to you shortly.');
@@ -21,8 +21,8 @@ function Contact() {
   return (
     <div className="contact-container">
       <h2 className='py-3'>Get In Touch</h2>
-      <form className="contact-form">
-        <div className="form-group">
+        <form className="contact-form" onSubmit={sendEmail}>
+          <div className="form-group">
           <div className="form-field">
             <label htmlFor="firstName">First Name *</label>
             <input type="text" id="firstName" name="firstName" required />
